@@ -1,0 +1,41 @@
+---
+title: "main-functions"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{main-functions}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(nowaste)
+```
+
+```{r}
+plot_plastic_density(plastic_data, variable = "plastic_per_capita")
+```
+
+This function creates a density plot showing the distribution of plastic waste per capita across countries.
+
+
+```{r}
+table_waste_by_income(joined_all) #need other data
+```
+
+This function groups countries into GDP per capita income categories and creates a formatted table summarizing the number of countries, average GDP per capita, average plastic waste per person, median plastic waste per person, and total recorded plastic waste.
+
+
+```{r}
+plot_gdp_vs_plastic(joined_all) #need other data
+```
+
+This function creates a scatterplot comparing GDP per capita and total recorded plastic waste by country. Countries are colored by world region.
+
+
