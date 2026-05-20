@@ -3,11 +3,12 @@ Title: Functions for Plastic Waste Dashboard
 Version: 0.0.0.9000
 Authors@R: 
     person("Faran", "Igani", , "f95igani@gmail.com", role = c("aut", "cre"))
-Description: This package contains functions for plots and summarize for the plastic waste environment data. 
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+Description: This package contains functions for plots and summaries for the plastic waste environment data. 
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 8.0.0
 URL: https://github.com/FaranIgani/STAT541Project3
 BugReports: https://github.com/FaranIgani/STAT541Project3/issues
+Imports: 
+    readr
