@@ -1,9 +1,9 @@
-Package: STAT541Project3
-Title: What the Package Does (One Line, Title Case)
+Package: nowaste
+Title: Functions for Plastic Waste Dashboard
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
+    person("Faran", "Igani", , "f95igani@gmail.com", role = c("aut", "cre"))
+Description: This package contains functions for plots and summarize for the plastic waste environment data. 
 License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
     license
 Encoding: UTF-8
