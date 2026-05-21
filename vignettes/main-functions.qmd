@@ -26,16 +26,12 @@ This function creates a density plot showing the distribution of plastic waste p
 
 
 ```{r}
-table_waste_by_income(joined_all) #need other data
+plastic_prop_type(plastic_data) 
 ```
 
-This function groups countries into GDP per capita income categories and creates a formatted table summarizing the number of countries, average GDP per capita, average plastic waste per person, median plastic waste per person, and total recorded plastic waste.
+This function gives the proportion of all plastic types for either the year or country. Can specify later. Prints in a table the make up of plastic and percentage for each tyep.
 
 
-```{r}
-plot_gdp_vs_plastic(joined_all) #need other data
-```
 
-This function creates a scatterplot comparing GDP per capita and total recorded plastic waste by country. Countries are colored by world region.
 
 
