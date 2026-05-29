@@ -11,8 +11,18 @@ RoxygenNote: 8.0.0
 URL: https://github.com/FaranIgani/STAT541Project3
 BugReports: https://github.com/FaranIgani/STAT541Project3/issues
 Imports: 
-    readr
+    dplyr,
+    ggplot2,
+    gt,
+    magrittr,
+    purrr,
+    readr,
+    scales,
+    tidyr
 Suggests: 
     knitr,
-    rmarkdown
-VignetteBuilder: knitr
+    rmarkdown,
+    testthat (>= 3.0.0),
+    quarto
+VignetteBuilder: quarto
+Config/testthat/edition: 3
