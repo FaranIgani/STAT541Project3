@@ -18,18 +18,21 @@ knitr::opts_chunk$set(
 library(nowaste)
 ```
 
+
+Plot for Plastic by Company:
 ```{r}
-plot_plastic_density(plastic_data, variable = "plastic_per_capita")
+plot_plastic_by_company <- function(data, top_n = 10)
 ```
 
-This function creates a density plot showing the distribution of plastic waste per capita across countries.
+
+This function creates a bar chart showing the total plastic contributed by top countries in each continent. Run function with data.
 
 
 ```{r}
-plastic_prop_type(plastic_data) 
+table_plastic_type_by_year()
 ```
 
-This function gives the proportion of all plastic types for either the year or country. Can specify later. Prints in a table the make up of plastic and percentage for each tyep.
+This function gives a table with the proportion of all plastic types for the 2 years. Run fucntion with data.
 
 
 
