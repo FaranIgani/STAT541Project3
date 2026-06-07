@@ -25,9 +25,10 @@ plot_plastic_by_company <- function(data, top_n = 10)
 ```
 
 
-This function creates a bar chart showing the total plastic contributed by top countries in each continent. Run function with data.
+This function creates a bar chart showing the total plastic contributed by top companies in each continent. Run function with data.
 
 
+Proportion of Plastic:
 ```{r}
 table_plastic_type_by_year()
 ```
@@ -35,6 +36,17 @@ table_plastic_type_by_year()
 This function gives a table with the proportion of all plastic types for the 2 years. Run fucntion with data.
 
 
+Model:
+```{r}
+fit_plastic_lmer()
+```
+Plastic statistical model. LMM with random effect on country.
+
+
+```{r}
+plastic_model_table()
+```
+Prints the table.
 
 
 
