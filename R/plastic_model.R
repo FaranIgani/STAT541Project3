@@ -4,7 +4,7 @@
 #' model predicting log total plastic waste, with a random intercept for country.
 #'
 #' @param data A data frame containing joined plastic waste, GDP, population,
-#' temperature, population density, and region data.
+#' and region data.
 #'
 #' @return A fitted lmer model object.
 #' @export
